@@ -147,6 +147,21 @@ a {
   justify-content: space-between;
 }
 
+/* Cards */
+
+.card-deck {
+  margin:20px;
+}
+
+.card-img-top {
+  max-height: 250px;
+  
+}
+
+.card-body {
+  background-color: #85a6a6;
+  color:#22130c;
+}
 /* Events */
 #events {
   background: url("../images/preston.webp") no-repeat center/cover;
@@ -210,8 +225,11 @@ td {
   border: solid 1px #22130c;
 }
 
-.btn-orange a:hover {
-  color: #85a6a6;
+.btn-orange:hover,
+.btn-orange:active,
+.btn-orange:focus,
+.btn-orange:active:focus {
+  background-color: #f28585;
 }
 
 .btn-green {
@@ -220,6 +238,10 @@ td {
   border: solid 1px #22130c;
 }
 
-.btn-green a:hover {
-  color: #f28585;
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus,
+.btn-green:active:focus {
+  background-color:#f28585;
+  
 }
