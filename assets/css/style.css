@@ -44,10 +44,15 @@ a {
 
 .block-divider-sm {
   width: 20px;
-  height:5px;
-  border:0;
+  height: 5px;
+  border: 0;
   background-color: #f28585;
 }
+
+.hidden-heading {
+  display: none;
+}
+
 
 /* Header */
 
@@ -132,9 +137,35 @@ a {
 
 .jumbotron h4 {
   color: #22130c;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
+/* Intro */
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Events */
+#events {
+  background: url("../images/preston.webp") no-repeat center/cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#events div {
+  color: #d3ddde;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  /* This will not wrap on screens of less than 400px wide. 
+  Each div will expand to fill the available space on its row. */
+  flex-basis: 200px;
+  flex-grow: 1;
+  /* Creates a grid of meet up time divs over the background image */
+  border: 2px solid white;
+}
 
 /* Footer */
 
@@ -166,7 +197,8 @@ footer {
   padding: 20px;
 }
 
-th, td {
+th,
+td {
   padding: 5px;
 }
 
