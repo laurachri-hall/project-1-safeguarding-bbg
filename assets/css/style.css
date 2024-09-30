@@ -13,6 +13,10 @@ body {
   color: #22130c;
 }
 
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
 a:hover {
   color: #f28585;
 }
@@ -31,7 +35,6 @@ a {
 }
 
 /* Header */
- 
 
 .active {
   border-bottom: 1px solid #22130c;
@@ -82,6 +85,38 @@ a {
   background-color: #85a6a6;
 }
 
+.slogan-container {
+  height: 600px;
+  background: url("../images/bgg-hero.webp") no-repeat center center/cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-color: rgba(133, 166, 166, 0.8);
+}
+
+.jumbotron h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #22130c;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.jumbotron p {
+  color: #22130c;
+}
+
 /* Footer */
 
 footer {
@@ -91,19 +126,18 @@ footer {
 
 .social-links {
   padding-bottom: 15px;
-
 }
 
 .social-links li a svg {
-    border-radius: 50%;
-    font-size: 13px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  border-radius: 50%;
+  font-size: 13px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a svg:hover {
@@ -114,17 +148,17 @@ footer {
   padding: 20px;
 }
 
-th, td {
+th,
+td {
   padding-left: 5px;
 }
 
 /* Buttons */
 
 .btn-orange {
-  background-color: #F28705;
-  color:#22130c;
-  border:solid 1px #22130c;
-
+  background-color: #f28705;
+  color: #22130c;
+  border: solid 1px #22130c;
 }
 
 .btn-orange a:hover {
@@ -132,10 +166,9 @@ th, td {
 }
 
 .btn-green {
-  background-color: #D3DDDE;
-  color:#22130c;
-  border:solid 1px #22130c;
-
+  background-color: #d3ddde;
+  color: #22130c;
+  border: solid 1px #22130c;
 }
 
 .btn-green a:hover {
