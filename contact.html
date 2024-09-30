@@ -52,127 +52,44 @@
       </div>
     </nav>
   </header>
-
-  <main>
-    <!-- Slogan -->
-    <div class="container-fluid slogan-container">
-      <div class="row">
-        <div class="col-12">
-          <section class="jumbotron text-center">
-            <h1>Play games. Have fun. Be safe.</h1>
-            <hr class="text-center block-divider">
-            <h4>Through games and safeguarding, <br> we create a community who cares.</h4>
-          </section>
-        </div>
-      </div>
-    </div>
-
-    <!-- Intro -->
-    <section class="container-fluid intro">
-      <div class="row">
-        <div class="col-6 my-5">
-          <div class="row">
-            <div class="col-10">
-              <h4 class="uppercase">Who are we?</h4>
-              <p>
-                The Board Game Guardians is a board game club located in
-                Preston, Lancashire. Our members come together to enjoy a
-                wide variety of games, from strategy classics to casual, cooperative fun. At the heart of our club
-                is a commitment to safeguarding and ensuring everyone feels welcome, respected, and protected.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 my-5">
-          <div class="row">
-            <div class="col-10">
-              <h4 class="uppercase">What do we do?</h4>
-              <p>
-                We organize regular game nights where players can connect, socialize,
-                and explore new board games. Alongside the fun, we actively raise
-                awareness about community safeguarding through workshops and
-                discussions, educating members on how to create a safe and inclusive
-                space for all.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      </div>
-    </section>
-
-    <!-- Cards -->
-    <div class="card-deck">
-      <div class="card safeguarding-info" style="width: 18rem">
-        <img src="assets/images/padlock.webp" class="card-img-top" alt="A padlock over a game board." />
-        <div class="card-body">
-          <h5 class="card-title">What is safeguarding?</h5>
-          <p class="card-text">
-            Safeguarding is the act of protecting people's health, human rights, and wellbeing, and ensuring they are
-            free from abuse, neglect, and harm. It's a collective responsibility to safeguard children, young people,
-            and adults.
-          </p>
-          <a class="btn btn-green" href="safeguarding.html" role="button">Learn More</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="assets/images/guidelines.webp" class="card-img-top"
-          alt="A book of guidelines on top of a game board." />
-        <div class="card-body">
-          <h5 class="card-title">Guidelines</h5>
-          <p class="card-text">
-            Our guidelines have descriptions of what to look for to keep people safe and how to report a concern either
-            to us or the local council.
-          </p>
-          <a class="btn btn-green" href="guidelines.html" role="button">Learn More</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="assets/images/outreach.webp" class="card-img-top" alt="A handshake above a game board." />
-        <div class="card-body">
-          <h5 class="card-title">Outreach</h5>
-          <p class="card-text">
-            We are collaborating with charities, school and other organisations to host events and clubs using board
-            games to promote safeguarding.
-          </p>
-          <a class="btn btn-green" href="outreach.html" role="button">Learn More</a>
-          </div>
-      </div>
-    </div>
-
-  </main>
-
-  <!-- Events -->
-
-  <section id="events">
-    <div class="container-fluid">
-      <h2 class="hidden-heading">Event Times and Locations</h2>
-      <div id="events">
-        <div>
-          <h3>Club Meeting</h3>
-          <p>Mondays</p>
-          <p>Winckley Street Ale House, Preston</p>
-          <p>18:00</p>
-        </div>
-        <div>
-          <h3>Club Meeting</h3>
-          <p>Wednesdays</p>
-          <p>Ye Old Hobb Inn, Bamber Bridge</p>
-          <p>18:30</p>
-        </div>
-        <div>
-          <h3>Fundraiser</h3>
-          <p>Sunday Oct 31st</p>
-          <p>The Mill Cafe, St Catherine's Hospice</p>
-          <p>13:00</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Footer -->
+  
+  <body>
+    <main>
+        <!-- Form -->
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Contact Us</h2>
+                <p>
+                 Report a safeguarding concern or ask us a question.
+                </p>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="safeguarding">Safeguarding</label>
+                        <input type="radio" name="running_preference" id="road" value="safeguarding" required checked>
+                    </div>
+                    <div>
+                        <label for="question">Question</label>
+                        <input type="radio" name="running_preference" id="trail" value="question" required>
+                    </div>
+                    <div>
+                        <label for="other">Other</label>
+                        <input type="radio" name="running_preference" id="both" value="other" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn-green">Send</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
   <footer class="container-fluid">
     <div id="footer-details" class="row">
       <div class="col-sm-4">
@@ -256,3 +173,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 
 </html>
+  
