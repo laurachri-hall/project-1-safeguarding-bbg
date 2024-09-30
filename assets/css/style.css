@@ -24,6 +24,10 @@ a:hover {
 a {
   text-decoration: none;
   color: inherit;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 /* Header */
@@ -87,19 +91,22 @@ footer {
 
 .social-links {
   padding-bottom: 15px;
+
 }
 
-.social-links li a i {
-  width: 2em;
-  height: 32px;
-  padding: 12px 0;
-  font-size: 13px;
-  line-height: 7px;
-  text-align: center;
-  background: #85a6a6;
+.social-links li a svg {
+    border-radius: 50%;
+    font-size: 13px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
+.social-links li a svg:hover {
   background: #f28585;
 }
 
@@ -122,4 +129,15 @@ th, td {
 
 .btn-orange a:hover {
   color: #85a6a6;
+}
+
+.btn-green {
+  background-color: #D3DDDE;
+  color:#22130c;
+  border:solid 1px #22130c;
+
+}
+
+.btn-green a:hover {
+  color: #f28585;
 }
