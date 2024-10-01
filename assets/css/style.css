@@ -65,13 +65,11 @@ hr {
   height: 5px;
   border: 0;
   background-color: #f28585;
-
 }
 
 .hidden-heading {
   display: none;
 }
-
 
 /* Header */
 
@@ -110,6 +108,15 @@ hr {
 
 .navbar .navbar-nav a {
   font-weight: bold;
+}
+
+.nav {
+  text-align: center;
+}
+
+.navbar-toggler {
+  float: none;
+  margin-right: 0;
 }
 
 .ci--hamburger-lg {
@@ -172,7 +179,7 @@ hr {
 
 .card-img-top {
   max-height: 250px;
-
+  object-fit: cover;
 }
 
 .card-body {
@@ -250,6 +257,27 @@ hr {
   text-align: center;
 }
 
+/* Accordian */
+
+#accordion {
+  padding: 20px;
+}
+
+.card-header {
+  background-color: #d3ddde;
+}
+
+.card-resource h6 {
+  color: #d3ddde;
+  font-weight: bold;
+}
+ .card-resource ul {
+  list-style-type: none;
+ }
+
+ .card-links li a {
+  text-decoration: underline;
+ }
 /* Footer */
 
 footer {
@@ -315,9 +343,7 @@ td {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-
   .navbar-brand {
     font-size: 130%;
   }
-
 }
