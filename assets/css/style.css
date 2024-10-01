@@ -8,13 +8,13 @@
 
 /* General Styles */
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
@@ -22,7 +22,11 @@ body {
   color: #22130c;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -129,8 +133,6 @@ a {
   position: relative;
 }
 
-
-
 /* Jumbotron */
 
 .jumbotron {
@@ -159,18 +161,19 @@ a {
 /* Cards */
 
 .card-deck {
-  margin:20px;
+  margin: 20px;
 }
 
 .card-img-top {
   max-height: 250px;
-  
+
 }
 
 .card-body {
   background-color: #85a6a6;
-  color:#22130c;
+  color: #22130c;
 }
+
 /* Events */
 #events {
   background: url("../images/preston.webp") no-repeat center/cover;
@@ -193,49 +196,43 @@ a {
 
 /* Contact Form */
 
-#signup {
-  background-image: url("../images/millerpark.webp");
-  background-size: 100vh;
-  background-position: 100%;
-  padding: 20px 10% 0 10%;
-  resize:both;
-  flex-grow: 1;
+.contact-page {
+  background: url("../images/millerpark.webp");
+  background-size: cover;
 }
 
-#signup-form {
+.contact-form {
   color: #22130c;
   background-color: rgba(133, 166, 166, 0.8);
-  padding: 30px;
-  margin-bottom: 50px;
+  border-radius: 1rem;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
 }
 
-#signup-form > h2 {
-  color: #22130c;
-  margin-bottom: 20px;
+.contact-form .form-control {
+  border-radius: 1rem;
 }
 
-.text-input {
-  background: transparent;
-  color: #22130c;
-  border: 1px solid #d3ddde;
-  border-radius: 2px;
-  width: 100%;
-  height: 25px;
-  margin: 5px 0px 20px 0px;
-  padding: 0px 5px;
+.contact-form form {
+  padding: 14%;
 }
 
-.radio-buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
 }
 
 /* Footer */
 
 footer {
   background-color: #85a6a6;
-  margin:0;
+  margin: 0;
 }
 
 .social-links {
@@ -291,12 +288,12 @@ td {
 .btn-green:active,
 .btn-green:focus,
 .btn-green:active:focus {
-  background-color:#f28585; 
+  background-color: #f28585;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-  
+
   .navbar-brand {
     font-size: 130%;
   }

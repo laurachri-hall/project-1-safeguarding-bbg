@@ -53,42 +53,34 @@
     </nav>
   </header>
   
-  <body>
+  <body class="contact-page">
     <main>
+      <section>
         <!-- Form -->
-        <section id="signup">
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2>Contact Us</h2>
-                <p>
-                 Report a safeguarding concern or ask us a question.
-                </p>
-                <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last_name" id="last-name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <br>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="safeguarding">Safeguarding</label>
-                        <input type="radio" name="running_preference" id="road" value="safeguarding" required checked>
-                    </div>
-                    <div>
-                        <label for="question">Question</label>
-                        <input type="radio" name="running_preference" id="trail" value="question" required>
-                    </div>
-                    <div>
-                        <label for="other">Other</label>
-                        <input type="radio" name="running_preference" id="both" value="other" required>
-                    </div>
-                </div>
-                <button type="submit" class="btn-green">Send</button>
-            </form>
+        <div class="container contact-form">
+          <form id="contact" method="post" action="https://formdump.codeinstitute.net">
+              <h3>Contact us or report a safeguarding concern.</h3>
+             <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <input type="text" name="txtName" class="form-control" value="name">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" name="txtEmail" class="form-control"  value="email">
+                      </div>
+                      <div class="form-group">
+                          <input type="submit" name="btnSubmit" class="btn btn-green" value="Send Message">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <textarea name="txtMsg" class="form-control" style="width: 100%; height: 150px;"></textarea>
+                      </div>
+                  </div>
+              </div>
+          </form>
         </section>
-    </main>
+</div>
     <!-- Footer -->
   <footer class="container-fluid footer">
     <div id="footer-details" class="row">
@@ -97,10 +89,6 @@
         <div>
           <span class="bold">Phone: </span>
           <span> 555 555 555</span>
-        </div>
-        <div>
-          <span class="bold">Email: </span>
-          <span><a href="mailto: email@boardgameguardians.com">email@boardgameguardians.com</a></span>
         </div>
         <div>
           <a class="btn btn-green" href="contact.html" role="button">Contact Form</a>
