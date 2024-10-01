@@ -8,12 +8,21 @@
 
 /* General Styles */
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
   font-family: "Lexend", sans-serif;
   color: #22130c;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -76,7 +85,7 @@ a {
 
 .navbar-brand {
   text-transform: uppercase;
-  font-size: 150%;
+  font-size: 100%;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
 }
@@ -182,11 +191,51 @@ a {
   border: 2px solid white;
 }
 
+/* Contact Form */
+
+#signup {
+  background-image: url("../images/millerpark.webp");
+  background-size: 100vh;
+  background-position: 100%;
+  padding: 20px 10% 0 10%;
+  resize:both;
+  flex-grow: 1;
+}
+
+#signup-form {
+  color: #22130c;
+  background-color: rgba(133, 166, 166, 0.8);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+#signup-form > h2 {
+  color: #22130c;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #22130c;
+  border: 1px solid #d3ddde;
+  border-radius: 2px;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0px 20px 0px;
+  padding: 0px 5px;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 /* Footer */
 
 footer {
   background-color: #85a6a6;
-  margin: 0;
+  margin:0;
 }
 
 .social-links {
@@ -242,6 +291,14 @@ td {
 .btn-green:active,
 .btn-green:focus,
 .btn-green:active:focus {
-  background-color:#f28585;
+  background-color:#f28585; 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
   
+  .navbar-brand {
+    font-size: 130%;
+  }
+
 }
