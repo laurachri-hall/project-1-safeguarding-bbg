@@ -257,6 +257,20 @@ hr {
   text-align: center;
 }
 
+/* Guidelines */
+.gl-container {
+  height: 500px;
+  background: url("../images/guidelines.webp") no-repeat center center/cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
 /* Accordian */
 
 #accordion {
