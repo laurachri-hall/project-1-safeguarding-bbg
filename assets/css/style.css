@@ -47,6 +47,11 @@ a {
   -o-transition: all 0.35s ease-in-out;
 }
 
+hr {
+  width: 25%;
+  margin: auto;
+}
+
 .block-divider {
   width: 75px;
   height: 5px;
@@ -60,6 +65,7 @@ a {
   height: 5px;
   border: 0;
   background-color: #f28585;
+
 }
 
 .hidden-heading {
@@ -174,11 +180,27 @@ a {
   color: #22130c;
 }
 
+.card {
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+}
+
+.card-body-intro {
+  background-color: #d3ddde;
+}
+
+.card-body-intro p {
+  padding-top: 10px;
+}
+
 /* Events */
 #events {
   background: url("../images/preston.webp") no-repeat center/cover;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 #events div {
@@ -188,10 +210,10 @@ a {
   text-align: center;
   /* This will not wrap on screens of less than 400px wide. 
   Each div will expand to fill the available space on its row. */
-  flex-basis: 200px;
+  flex-basis: max-content;
   flex-grow: 1;
-  /* Creates a grid of meet up time divs over the background image */
-  border: 2px solid white;
+  /* Creates a grid of event  divs over the background image */
+  border: 2px solid #85a6a6;
 }
 
 /* Contact Form */
