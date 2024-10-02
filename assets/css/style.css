@@ -202,6 +202,11 @@ hr {
   padding-top: 10px;
 }
 
+.card-body-warnings {
+  background-color: #d3ddde;
+  padding: 40px;
+}
+
 /* Events */
 #events {
   background: url("../images/preston.webp") no-repeat center/cover;
@@ -270,6 +275,7 @@ hr {
   justify-content: center;
   position: relative;
 }
+
 
 /* Guidelines */
 .gl-container {
@@ -382,6 +388,16 @@ td {
   background-color: #f28585;
 }
 
+.btn-accordion {
+  background-color: #d3ddde;
+  color: #22130c;
+  border:none;
+  font-weight: 300;
+}
+
+.btn-accordion:focus {
+  box-sizing: none;
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   .navbar-brand {

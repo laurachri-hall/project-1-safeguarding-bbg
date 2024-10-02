@@ -97,7 +97,7 @@
         </div>
       </div>
       <!-- Video -->
-      <div class="container">
+      <div class="container video">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe width="200" height="315" src="https://www.youtube.com/embed/qWO_WfnRW_U?si=E3XZxqOttmhttuzB"
             title="YouTube video player" frameborder="0"
@@ -105,27 +105,49 @@
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
+      </div>
+
+      <!-- Signs -->
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body text-center card-body-warnings">
+            <h4 class="uppercase"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em"
+                viewBox="0 0 256 256">
+                <path fill="#22130c"
+                  d="M236.8 188.09L149.35 36.22a24.76 24.76 0 0 0-42.7 0L19.2 188.09a23.51 23.51 0 0 0 0 23.72A24.35 24.35 0 0 0 40.55 224h174.9a24.35 24.35 0 0 0 21.33-12.19a23.51 23.51 0 0 0 .02-23.72M120 104a8 8 0 0 1 16 0v40a8 8 0 0 1-16 0Zm8 88a12 12 0 1 1 12-12a12 12 0 0 1-12 12" />
+              </svg> Warning Signs</h4>
+            <p>
+              Signs that someone is in need of help are not always clear and depend on the type of abuse, of which there
+              are several. Read below for more specific help.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <!-- Accordian -->
-      <div class="container-fluid">
       <div id="accordion">
-        <div class="card card-resource">
+        <div class="card">
           <div class="card-header" id="headingOne">
             <h5 class="mb-0">
-              <button class="btn btn-green" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+              <button class="btn-accordion" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
                 aria-controls="collapseOne">
-                Lancashire Resources
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Physical Abuse
               </button>
             </h5>
           </div>
 
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-             
-              <ul class="card-links">
-                <li><a href="https://www.lancashire.gov.uk/health-and-social-care/safeguarding/">Lancashire County
-                    Council</a>: official safeguarding resources provided by LCC.
-                </li>
-                <li><a href="https://www.safeguardingpartnership.org.uk/">Children's Safeguarding Assurance Partnership</a>: provides a variety of information, advice and guidance to support you in safeguarding children and young people across the Pan-Lancashire region.</li>
+              <p>The deliberate use of force that causes harm, injury, or pain to another person.</p>
+
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Unexplained injuries, such as bruises, burns, or fractures</li>
+                <li>Frequent absences from school or social activities</li>
+                <li>Fear of physical contact or flinching</li>
               </ul>
             </div>
           </div>
@@ -133,25 +155,288 @@
         <div class="card">
           <div class="card-header" id="headingTwo">
             <h5 class="mb-0">
-              <button class="btn btn-green collapsed" data-toggle="collapse" data-target="#collapseTwo"
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseTwo"
                 aria-expanded="false" aria-controls="collapseTwo">
-                Other Resources
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Emotional (or Psychological) Abuse
               </button>
             </h5>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-              <ul class="card-links">
-                <li><a href="https://www.nspcc.org.uk//">NSPCC</a>:  a UK charity that works to protect children and prevent abuse</li>
-                <li><a href="https://www.anncrafttrust.org/">Ann Craft Trust</a>: a leading UK authority on safeguarding adults.</li>
-                <li><a href="https://www.england.nhs.uk/safeguarding/">NHS England</a>: safeguarding information from the NHS.</li>
+              <p>Ongoing emotional maltreatment intended to harm someone’s emotional well-being or sense of self-worth.
+              </p>
+
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Low self-esteem or confidence</li>
+                <li>Withdrawn, anxious, or depressed behavior</li>
+                <li>Sudden changes in behavior (aggression or passivity)</li>
               </ul>
             </div>
           </div>
         </div>
-        
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Sexual Abuse
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <p>Involvement in sexual activities without consent, including grooming, exploitation, and assault.</p>
+
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Age-inappropriate knowledge of sexual matters</li>
+                <li>Difficulty sitting or walking</li>
+                <li>Fear of certain people or places, avoiding situations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="false" aria-controls="collapseFour">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Neglect
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              <p>The failure to meet a person's basic physical and emotional needs, including food, shelter, medical
+                care, and attention.</p>
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Poor hygiene or clothing that is inappropriate for the weather</li>
+                <li>Constant hunger, fatigue, or weight loss</li>
+                <li>Unattended medical needs or lack of proper supervision</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseFive"
+                aria-expanded="false" aria-controls="collapseFive">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Financial or Material Abuse
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+              <p>Illegal or improper use of someone’s money, property, or resources.</p>
+
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Unexplained withdrawal from accounts or missing belongings</li>
+                <li>Sudden changes in financial circumstances</li>
+                <li>Lack of money for basic needs despite adequate income</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseSix"
+                aria-expanded="false" aria-controls="collapseSix">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Discriminatory Abuse
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+              <p>Harassment, slurs, or similar treatment because of race, gender, age, disability, sexual orientation,
+                or religion.</p>
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Isolation or avoidance of certain social groups</li>
+                <li>Exclusion from services or opportunities</li>
+                <li>Verbal abuse related to personal characteristics</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingSeven">
+            <h5 class="mb-0">
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseSeven"
+                aria-expanded="false" aria-controls="collapseSeven">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Organizational (or Institutional) Abuse
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+              <p>Poor care or treatment within an institution or care setting due to systemic neglect or bad practices.
+              </p>
+
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Lack of autonomy or choices for the individual</li>
+                <li>Inadequate staffing or unsafe environments</li>
+                <li>Strict or unnecessary rules and restrictions/li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingEight">
+            <h5 class="mb-0">
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseEight"
+                aria-expanded="false" aria-controls="collapseEight">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Domestic violence and abuse
+              </button>
+            </h5>
+          </div>
+          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+            <div class="card-body">
+              <p>A pattern of behavior in a relationship that is used to gain or maintain power and control over an intimate partner. This can include physical, emotional, sexual, financial, or psychological abuse.</p>
+
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Unexplained injuries or frequent visits to the doctor or hospital</li>
+                <li> Withdrawal from social activities or isolation from friends and family</li>
+                <li>Sudden changes in personality, such as anxiety, depression, or low self-esteem</li>
+                <li>Partner seems overly controlling or excessively checks in on them</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingNine">
+            <h5 class="mb-0">
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseNine"
+                aria-expanded="false" aria-controls="collapseNine">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Modern Slavery
+              </button>
+            </h5>
+          </div>
+          <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+            <div class="card-body">
+              <p>The exploitation of people through coercion, control, or threats, often involving forced labor, human trafficking, or domestic servitude.</p>
+
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Restricted freedom of movement, or being accompanied everywhere</li>
+                <li>Lack of identification documents, or someone else holding their personal documents</li>
+                <li>Signs of physical abuse, malnutrition, or untreated injuries</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTen">
+            <h5 class="mb-0">
+              <button class="btn-accordion collapsed" data-toggle="collapse" data-target="#collapseTen"
+                aria-expanded="false" aria-controls="collapseSix">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32">
+                  <path fill="#22130c"
+                    d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3m0 2c6.087 0 11 4.913 11 11s-4.913 11-11 11S5 22.087 5 16S9.913 5 16 5m-1 5v5h-5v2h5v5h2v-5h5v-2h-5v-5z" />
+                </svg> Self-neglect
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+            <div class="card-body">
+              <p>A person’s failure to attend to their own basic physical, emotional, or hygiene needs, which threatens their own health or safety. Often seen in vulnerable adults.
+
+              </p>
+
+              <p>Possible Signs:</p>
+              <ul>
+                <li>Poor personal hygiene, dirty or unkempt appearance</li>
+                <li>Malnutrition, dehydration, or significant weight loss</li>
+                <li>Living in unsanitary or unsafe conditions (hoarding, cluttered homes)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-resource">
+          <div class="card-header" id="headingEleven">
+            <h5 class="mb-0">
+              <button class="btn btn-green" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true"
+                aria-controls="collapseOne">
+                Lancashire Resources
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+            <div class="card-body">
+
+              <ul class="card-links">
+                <li><a href="https://www.lancashire.gov.uk/health-and-social-care/safeguarding/">Lancashire County
+                    Council</a>: official safeguarding resources provided by LCC.
+                </li>
+                <li><a href="https://www.safeguardingpartnership.org.uk/">Children's Safeguarding Assurance
+                    Partnership</a>: provides a variety of information, advice and guidance to support you in
+                  safeguarding children and young people across the Pan-Lancashire region.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwelve">
+            <h5 class="mb-0">
+              <button class="btn btn-green collapsed" data-toggle="collapse" data-target="#collapseTwelve""
+                aria-expanded="false" aria-controls="collapseTwelve"">
+                Other Resources
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
+            <div class="card-body">
+              <ul class="card-links">
+                <li><a href="https://www.nspcc.org.uk//">NSPCC</a>: a UK charity that works to protect children and
+                  prevent abuse</li>
+                <li><a href="https://www.anncrafttrust.org/">Ann Craft Trust</a>: a leading UK authority on
+                  safeguarding adults.</li>
+                <li><a href="https://www.england.nhs.uk/safeguarding/">NHS England</a>: safeguarding information from
+                  the NHS.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
     </main>
     <!-- Footer -->
     <footer class="container-fluid">
