@@ -301,11 +301,17 @@ OTHER TESTING STUFF?!?!
 <br>  
 
 
-
-
-
-
-
+## Credits  
+  
+### **Content References**
+- All content written for the website is by myself, is purely fictional, and for educational purposes only.
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and 'content zoom' module in the Love Running project.
+- [W3Schools](https://www.w3schools.com/) for additional learning material and help with bootstrap cards.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) for flexbox tutorials and guidance.
+- Amy from Code Institute for helping me with the centering the navbar toggle on mobile view and all additional help.
+- [StackOverflow](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements) guidance on margin issues 
+- [Bootsnip](https://bootsnipp.com/snippets/7nmOW) for bootstrap contact form component
+- [NSPCC](https://www.nspcc.org.uk/) Design layout inspired by NSPCC homepage.
 
 
 ### **Media References**  
