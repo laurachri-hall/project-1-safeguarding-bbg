@@ -1,278 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/55c70be3d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Title -->
+    <title>Board Game Guardians</title>
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/favicon-180x180.webp"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.webp"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.webp"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Description" content="Enter your description here" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-  <script src="https://kit.fontawesome.com/55c70be3d1.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Title -->
-  <title>Board Game Guardians</title>
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon-180x180.webp" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.webp" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.webp" />
-</head>
-
-<body>
-
-  <!-- Header and Navigation -->
-  <header>
-    <nav class="navbar nav navbar-expand-md justify-content-center">
-      <a class="navbar-brand" href="index.html">
-        Board Game Guardians
-      </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-6">
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <nav class="navbar nav navbar-expand-md justify-content-center">
+        <a class="navbar-brand" href="index.html"> Board Game Guardians </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-list-6"
+        >
           <span class="ci--hamburger-lg"></span>
         </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbar-list-6">
-        <ul class="navbar-nav">
-          <li class="active nav-item mr-2">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="safeguarding.html" role="button"
-              aria-expanded="false">Safeguarding</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="safeguarding.html">What is safeguarding?</a>
-              <a class="dropdown-item" href="guidelines">How to Report</a>
-              <a class="dropdown-item" href="contact.html">Contact/Report to Us</a>
-            </div>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="outreach.html">Outreach</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbar-list-6"
+        >
+          <ul class="navbar-nav">
+            <li class="active nav-item mr-2">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="safeguarding.html"
+                role="button"
+                aria-expanded="false"
+                >Safeguarding</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="safeguarding.html"
+                  >What is safeguarding?</a
+                >
+                <a class="dropdown-item" href="guidelines">How to Report</a>
+                <a class="dropdown-item" href="contact.html"
+                  >Contact/Report to Us</a
+                >
+              </div>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="outreach.html">Outreach</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-  <main>
-    <!-- Slogan -->
-    <div class="container-fluid slogan-container">
-      <div class="row">
-        <div class="col-12">
-          <section class="jumbotron text-center">
-            <h1>Play games. Have fun. Be safe.</h1>
-            <hr class="text-center block-divider">
-            <h4>Through games and safeguarding, <br> we create a community who cares.</h4>
-          </section>
+    <main>
+      <!-- Slogan -->
+      <div class="container-fluid slogan-container">
+        <div class="row">
+          <div class="col-12">
+            <section class="jumbotron text-center">
+              <h1>Play games. Have fun. Be safe.</h1>
+              <hr class="text-center block-divider" />
+              <h4>
+                Through games and safeguarding, <br />
+                we create a community who cares.
+              </h4>
+            </section>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Intro Cards -->
-    <div class="card-deck">
-      <div class="card">
-        <div class="card-body text-center card-body-intro">
-          <h4 class="uppercase"><svg xmlns="http://www.w3.org/2000/svg" width="1.50em" height="2em"
-              viewBox="0 0 640 512">
-              <path fill="#22130c"
-                d="M360 72a40 40 0 1 0-80 0a40 40 0 1 0 80 0M144 208a40 40 0 1 0 0-80a40 40 0 1 0 0 80M32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32h576c17.7 0 32-14.3 32-32s-14.3-32-32-32zm464-208a40 40 0 1 0 0-80a40 40 0 1 0 0 80M200 313.5l26.9 49.9c6.3 11.7 20.8 16 32.5 9.8s16-20.8 9.8-32.5l-36.3-67.5c1.7-1.7 3.2-3.6 4.3-5.8l26.8-49.9V272c0 17.7 14.3 32 32 32h48c17.7 0 32-14.3 32-32v-54.5l26.9 49.9c1.2 2.2 2.6 4.1 4.3 5.8l-36.3 67.5c-6.3 11.7-1.9 26.2 9.8 32.5s26.2 1.9 32.5-9.8l26.8-49.9V352c0 17.7 14.3 32 32 32h48c17.7 0 32-14.3 32-32v-38.5l26.9 49.9c6.3 11.7 20.8 16 32.5 9.8s16-20.8 9.8-32.5l-37.9-70.3c-15.3-28.5-45.1-46.3-77.5-46.3h-19.5c-16.3 0-31.9 4.5-45.4 12.6l-33.6-62.3c-15.3-28.5-45.1-46.3-77.5-46.3h-19.5c-32.4 0-62.1 17.8-77.5 46.3l-33.6 62.3c-13.5-8.1-29.1-12.6-45.4-12.6h-19.5c-32.4 0-62.1 17.8-77.5 46.3l-37.9 70.2c-6.3 11.7-1.9 26.2 9.8 32.5s26.2 1.9 32.5-9.8L88 313.5V352c0 17.7 14.3 32 32 32h48c17.7 0 32-14.3 32-32z" />
-            </svg> Who are we?</h4>
-          <hr class="block-divider-sm">
-          <p>
-            The Board Game Guardians is a board game club located in
-            Preston, Lancashire. Our members come together to enjoy a
-            wide variety of games, from strategy classics to casual, cooperative fun. At the heart of our club
-            is a commitment to safeguarding and ensuring everyone feels welcome, respected, and protected.
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body text-center card-body-intro">
-          <h4 class="uppercase"><svg xmlns="http://www.w3.org/2000/svg" width="1.50em" height="2em"
-              viewBox="0 0 512 512">
-              <path fill="#22130c"
-                d="M32 24C0 312 128 488 256 488S512 312 480 24C320 56 192 56 32 24m223.9 58.8c4.5 0 9.4 1.1 12.8 2.9l115.9 67.1c7.4 4.1 7.4 10.9 0 15.2l-115.9 66.9c-7.2 4.3-18.5 4.3-25.7 0L126.8 168c-7.3-4.3-7.3-11.1 0-15.2L243 85.7c3.4-1.8 7.9-2.9 12.9-2.9m-89 62.6c-21.6-.4-33.1 15-18.2 24.3c9.6 4.8 23.7 4.4 32.7-.8c8.8-5.3 9.5-13.7 1.5-19.4c-4.3-2.5-10-4-16-4.1m178.6.1c-20.8.4-31.3 15.5-16.3 24.5c9.6 4.9 23.9 4.6 33-.7c8.9-5.3 9.5-13.9 1.2-19.6c-4.2-2.4-9.9-4-15.9-4.2zm-89 0c-6.6-.1-13 1.5-17.7 4.2c-10.2 5.6-10.4 15.1-.6 20.9c9.9 5.8 25.8 5.6 35.1-.6c15-9 4.6-24.3-16.8-24.5m-141 41c1.5.1 3.4.5 5.6 1.6l111.5 64.5c7.2 4.1 12.9 14.2 12.9 22.5v119.7c0 8.3-5.7 11.7-12.9 7.6L121.2 338c-7.4-4.3-13.2-14.2-13.2-22.6V195.7c0-6.2 3-9.2 7.5-9.2m281.3 0c4.2 0 7.2 3 7.2 9.2v119.7c0 8.4-6 18.3-13 22.6l-111.5 64.4c-7.2 4.1-12.9.7-12.9-7.6V275.1c0-8.3 5.7-18.4 12.9-22.5L391 188.1c2.1-1.1 4.2-1.5 5.8-1.6m-185 65.5h-1.1c-5.3.4-8.5 4.8-8.5 11.6c-.6 10.4 7.2 24.1 16.9 29.8c9.8 5.6 17.6 1.1 17.2-9.9c.2-14.2-13.3-31.1-24.5-31.5m130.9 21.8c-11.2.1-24.8 17.2-24.7 31.4c.1 10.4 7.7 14.4 17.2 8.9c9.4-5.5 17-18.3 17.1-28.8c0-6.7-3.3-11.1-8.5-11.5zm-216.9 22.5c-5.4.3-8.7 4.7-8.7 11.6c-.5 10.5 7.3 24.1 17 29.8c9.8 5.5 17.6 1 17.2-10.1c0-14.5-14.1-31.8-25.5-31.3" />
-            </svg> What do we do?</h4>
-          <hr class="block-divider-sm">
-          <p>
-            We organize regular game nights where players can connect, socialize,
-            and explore new board games. Alongside the fun, we actively raise
-            awareness about community safeguarding through workshops and
-            discussions, educating members on how to create a safe and inclusive
-            space for all.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- Information Cards -->
-    <div class="card-deck">
-      <div class="card safeguarding-info" style="width: 18rem">
-        <img src="assets/images/padlock.webp" class="card-img-top" alt="A padlock over a game board." />
-        <div class="card-body">
-          <h5 class="card-title">What is safeguarding?</h5>
-          <p class="card-text">
-            Safeguarding is the act of protecting people's health, human rights, and wellbeing, and ensuring they are
-            free from abuse, neglect, and harm. It's a collective responsibility to safeguard children, young people,
-            and adults.
-          </p>
-          <a class="btn btn-green" href="safeguarding.html" role="button">Learn More</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="assets/images/guidelines.webp" class="card-img-top"
-          alt="A book of guidelines on top of a game board." />
-        <div class="card-body">
-          <h5 class="card-title">Guidelines</h5>
-          <p class="card-text">
-            Our guidelines have descriptions of what to look for to keep people safe and how to report a concern either
-            to us or the local council.
-          </p>
-          <a class="btn btn-green" href="guidelines.html" role="button">Learn More</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="assets/images/outreach.webp" class="card-img-top" alt="A handshake above a game board." />
-        <div class="card-body">
-          <h5 class="card-title">Outreach</h5>
-          <p class="card-text">
-            We are collaborating with charities, school and other organisations to host events and clubs using board
-            games to promote safeguarding.
-          </p>
-          <a class="btn btn-green" href="outreach.html" role="button">Learn More</a>
-        </div>
-      </div>
-    </div>
-
-  </main>
-
-  <!-- Events -->
-
-  <section>
-    <div class="container-fluid">
-      <h2 class="hidden-heading">Event Times and Locations</h2>
-      <div id="events">
-        <div>
-          <h3>Club Meeting</h3>
-          <p>Mondays</p>
-          <p>Winckley Street Ale House, Preston</p>
-          <p>18:00</p>
-        </div>
-        <div>
-          <h3>Club Meeting</h3>
-          <p>Wednesdays</p>
-          <p>Ye Old Hobb Inn, Bamber Bridge</p>
-          <p>18:30</p>
-        </div>
-        <div>
-          <h3>Fundraiser</h3>
-          <p>Sunday Oct 31st</p>
-          <p>The Mill Cafe, St Catherine's Hospice</p>
-          <p>13:00</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<div class="modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <!-- Footer -->
-  <footer class="container-fluid">
-    <div id="footer-details" class="row">
-      <div class="col-sm-4">
-        <h5 class="uppercase general-sub">Contact Us</h5>
-        <div>
-          <span class="bold">Phone: </span>
-          <span> 555 555 555</span>
-        </div>
-        <div>
-          <a class="btn btn-green" href="contact.html" role="button">Contact Form</a>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <h5 class="uppercase general-sub report">Report</h5>
-        <table class="text-left">
-          <tr>
-            <th>Children:</th>
-            <th>Adults:</th>
-          </tr>
-
-          <tr>
-            <td><strong>Tel:</strong> 0300 123 6720 </td>
-            <td><strong>Tel:</strong> 0300 123 6720 </td>
-          </tr>
-          <tr>
-            <td><strong>Out of Hours:</strong><br>
-              0300 123 6722</td>
-            <td><a class="btn btn-orange"
-                href="https://www.lancashire.gov.uk/health-and-social-care/adult-social-care/report-a-concern-about-an-adult/l"
-                role="button">Report Concern</a>
-            </td>
-          </tr>
-          <tr>
-            <td><a class="btn btn-orange"
-                href="https://www.lancashire.gov.uk/children-education-families/keeping-children-safe/tell-us-if-you-are-worried-about-a-child/"
-                role="button">Report Concern</a>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div class="col-sm-4 social-border">
-        <h5 class="uppercase general-sub">Social</h5>
-        <ul class="social-links">
-          <li class="list-inline-item">
-            <a target="_blank" href="www.facebook.com">
-              <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 16 16">
-                <path fill="#22130c"
-                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131c.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+      <!-- Intro Cards -->
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body text-center card-body-intro">
+            <h4 class="uppercase">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.50em"
+                height="2em"
+                viewBox="0 0 640 512"
+              >
+                <path
+                  fill="#22130c"
+                  d="M360 72a40 40 0 1 0-80 0a40 40 0 1 0 80 0M144 208a40 40 0 1 0 0-80a40 40 0 1 0 0 80M32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32h576c17.7 0 32-14.3 32-32s-14.3-32-32-32zm464-208a40 40 0 1 0 0-80a40 40 0 1 0 0 80M200 313.5l26.9 49.9c6.3 11.7 20.8 16 32.5 9.8s16-20.8 9.8-32.5l-36.3-67.5c1.7-1.7 3.2-3.6 4.3-5.8l26.8-49.9V272c0 17.7 14.3 32 32 32h48c17.7 0 32-14.3 32-32v-54.5l26.9 49.9c1.2 2.2 2.6 4.1 4.3 5.8l-36.3 67.5c-6.3 11.7-1.9 26.2 9.8 32.5s26.2 1.9 32.5-9.8l26.8-49.9V352c0 17.7 14.3 32 32 32h48c17.7 0 32-14.3 32-32v-38.5l26.9 49.9c6.3 11.7 20.8 16 32.5 9.8s16-20.8 9.8-32.5l-37.9-70.3c-15.3-28.5-45.1-46.3-77.5-46.3h-19.5c-16.3 0-31.9 4.5-45.4 12.6l-33.6-62.3c-15.3-28.5-45.1-46.3-77.5-46.3h-19.5c-32.4 0-62.1 17.8-77.5 46.3l-33.6 62.3c-13.5-8.1-29.1-12.6-45.4-12.6h-19.5c-32.4 0-62.1 17.8-77.5 46.3l-37.9 70.2c-6.3 11.7-1.9 26.2 9.8 32.5s26.2 1.9 32.5-9.8L88 313.5V352c0 17.7 14.3 32 32 32h48c17.7 0 32-14.3 32-32z"
+                />
               </svg>
-              <span class="sr-only">Facebook</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.meetup.com/">
-              <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 14 14">
-                <path fill="#22130c"
-                  d="M7 0c3.87 0 7 3.13 7 7s-3.13 7-7 7s-7-3.13-7-7s3.13-7 7-7M5.72 10.69c3.1 0 4.8-2.57 4.8-4.8v-.22c.33-.24.62-.54.84-.88c-.3.13-.63.22-.97.27c.35-.21.62-.54.74-.93c-.33.19-.69.33-1.07.41c-.31-.33-.75-.53-1.23-.53c-.93 0-1.69.76-1.69 1.69c0 .13.01.26.05.38c-1.4-.07-2.65-.74-3.48-1.76c-.14.25-.23.54-.23.85c0 .58.3 1.1.75 1.4c-.28 0-.54-.08-.76-.21v.02c0 .82.58 1.5 1.35 1.66c-.14.04-.29.06-.44.06c-.11 0-.21-.01-.32-.03c.21.67.84 1.16 1.57 1.17c-.58.45-1.31.72-2.1.72c-.14 0-.27 0-.4-.02c.74.48 1.63.76 2.58.76"
-                  class="cls-1" />
+              Who are we?
+            </h4>
+            <hr class="block-divider-sm" />
+            <p>
+              The Board Game Guardians is a board game club located in Preston,
+              Lancashire. Our members come together to enjoy a wide variety of
+              games, from strategy classics to casual, cooperative fun. At the
+              heart of our club is a commitment to safeguarding and ensuring
+              everyone feels welcome, respected, and protected.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body text-center card-body-intro">
+            <h4 class="uppercase">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.50em"
+                height="2em"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="#22130c"
+                  d="M32 24C0 312 128 488 256 488S512 312 480 24C320 56 192 56 32 24m223.9 58.8c4.5 0 9.4 1.1 12.8 2.9l115.9 67.1c7.4 4.1 7.4 10.9 0 15.2l-115.9 66.9c-7.2 4.3-18.5 4.3-25.7 0L126.8 168c-7.3-4.3-7.3-11.1 0-15.2L243 85.7c3.4-1.8 7.9-2.9 12.9-2.9m-89 62.6c-21.6-.4-33.1 15-18.2 24.3c9.6 4.8 23.7 4.4 32.7-.8c8.8-5.3 9.5-13.7 1.5-19.4c-4.3-2.5-10-4-16-4.1m178.6.1c-20.8.4-31.3 15.5-16.3 24.5c9.6 4.9 23.9 4.6 33-.7c8.9-5.3 9.5-13.9 1.2-19.6c-4.2-2.4-9.9-4-15.9-4.2zm-89 0c-6.6-.1-13 1.5-17.7 4.2c-10.2 5.6-10.4 15.1-.6 20.9c9.9 5.8 25.8 5.6 35.1-.6c15-9 4.6-24.3-16.8-24.5m-141 41c1.5.1 3.4.5 5.6 1.6l111.5 64.5c7.2 4.1 12.9 14.2 12.9 22.5v119.7c0 8.3-5.7 11.7-12.9 7.6L121.2 338c-7.4-4.3-13.2-14.2-13.2-22.6V195.7c0-6.2 3-9.2 7.5-9.2m281.3 0c4.2 0 7.2 3 7.2 9.2v119.7c0 8.4-6 18.3-13 22.6l-111.5 64.4c-7.2 4.1-12.9.7-12.9-7.6V275.1c0-8.3 5.7-18.4 12.9-22.5L391 188.1c2.1-1.1 4.2-1.5 5.8-1.6m-185 65.5h-1.1c-5.3.4-8.5 4.8-8.5 11.6c-.6 10.4 7.2 24.1 16.9 29.8c9.8 5.6 17.6 1.1 17.2-9.9c.2-14.2-13.3-31.1-24.5-31.5m130.9 21.8c-11.2.1-24.8 17.2-24.7 31.4c.1 10.4 7.7 14.4 17.2 8.9c9.4-5.5 17-18.3 17.1-28.8c0-6.7-3.3-11.1-8.5-11.5zm-216.9 22.5c-5.4.3-8.7 4.7-8.7 11.6c-.5 10.5 7.3 24.1 17 29.8c9.8 5.5 17.6 1 17.2-10.1c0-14.5-14.1-31.8-25.5-31.3"
+                />
               </svg>
-              <span class="sr-only">Twitter</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.meetup.com/">
-              <svg xmlns="http://www.w3.org/2000/svg" width="3.5em" height="3.5em" viewBox="0 0 512 512">
-                <path fill="#22130c"
-                  d="M99 414.3c1.1 5.7-2.3 11.1-8 12.3c-5.4 1.1-10.9-2.3-12-8c-1.1-5.4 2.3-11.1 7.7-12.3s11.1 2.3 12.3 8m143.1 71.4c-6.3 4.6-8 13.4-3.7 20c4.6 6.6 13.4 8.3 20 3.7c6.3-4.6 8-13.4 3.4-20c-4.2-6.5-13.1-8.3-19.7-3.7m-86-462.3c6.3-1.4 10.3-7.7 8.9-14c-1.1-6.6-7.4-10.6-13.7-9.1c-6.3 1.4-10.3 7.7-9.1 14c1.4 6.6 7.6 10.6 13.9 9.1M34.4 226.3c-10-6.9-23.7-4.3-30.6 6c-6.9 10-4.3 24 5.7 30.9c10 7.1 23.7 4.6 30.6-5.7c6.9-10.4 4.3-24.1-5.7-31.2m272-170.9c10.6-6.3 13.7-20 7.7-30.3c-6.3-10.6-19.7-14-30-7.7s-13.7 20-7.4 30.6c6 10.3 19.4 13.7 29.7 7.4m-191.1 58c7.7-5.4 9.4-16 4.3-23.7s-15.7-9.4-23.1-4.3c-7.7 5.4-9.4 16-4.3 23.7c5.1 7.8 15.6 9.5 23.1 4.3m372.3 156c-7.4 1.7-12.3 9.1-10.6 16.9c1.4 7.4 8.9 12.3 16.3 10.6c7.4-1.4 12.3-8.9 10.6-16.6c-1.5-7.4-8.9-12.3-16.3-10.9m39.7-56.8c-1.1-5.7-6.6-9.1-12-8c-5.7 1.1-9.1 6.9-8 12.6c1.1 5.4 6.6 9.1 12.3 8c5.4-1.5 9.1-6.9 7.7-12.6M447 138.9c-8.6 6-10.6 17.7-4.9 26.3s17.4 10.6 26 4.9c8.3-6 10.3-17.7 4.6-26.3c-5.7-8.7-17.4-10.9-25.7-4.9m-6.3 139.4c26.3 43.1 15.1 100-26.3 129.1c-17.4 12.3-37.1 17.7-56.9 17.1c-12 47.1-69.4 64.6-105.1 32.6c-1.1.9-2.6 1.7-3.7 2.9c-39.1 27.1-92.3 17.4-119.4-22.3c-9.7-14.3-14.6-30.6-15.1-46.9c-65.4-10.9-90-94-41.1-139.7c-28.3-46.9.6-107.4 53.4-114.9C151.6 70 234.1 38.6 290.1 82c67.4-22.3 136.3 29.4 130.9 101.1c41.1 12.6 52.8 66.9 19.7 95.2m-70 74.3c-3.1-20.6-40.9-4.6-43.1-27.1c-3.1-32 43.7-101.1 40-128c-3.4-24-19.4-29.1-33.4-29.4c-13.4-.3-16.9 2-21.4 4.6c-2.9 1.7-6.6 4.9-11.7-.3c-6.3-6-11.1-11.7-19.4-12.9c-12.3-2-17.7 2-26.6 9.7c-3.4 2.9-12 12.9-20 9.1c-3.4-1.7-15.4-7.7-24-11.4c-16.3-7.1-40 4.6-48.6 20c-12.9 22.9-38 113.1-41.7 125.1c-8.6 26.6 10.9 48.6 36.9 47.1c11.1-.6 18.3-4.6 25.4-17.4c4-7.4 41.7-107.7 44.6-112.6c2-3.4 8.9-8 14.6-5.1c5.7 3.1 6.9 9.4 6 15.1c-1.1 9.7-28 70.9-28.9 77.7c-3.4 22.9 26.9 26.6 38.6 4c3.7-7.1 45.7-92.6 49.4-98.3c4.3-6.3 7.4-8.3 11.7-8c3.1 0 8.3.9 7.1 10.9c-1.4 9.4-35.1 72.3-38.9 87.7c-4.6 20.6 6.6 41.4 24.9 50.6c11.4 5.7 62.5 15.7 58.5-11.1m5.7 92.3c-10.3 7.4-12.9 22-5.7 32.6c7.1 10.6 21.4 13.1 32 6c10.6-7.4 13.1-22 6-32.6c-7.4-10.6-21.7-13.5-32.3-6" />
-              </svg>
-              <span class="sr-only">Meet Up</span>
-            </a>
-          </li>
-        </ul>
+              What do we do?
+            </h4>
+            <hr class="block-divider-sm" />
+            <p>
+              We organize regular game nights where players can connect,
+              socialize, and explore new board games. Alongside the fun, we
+              actively raise awareness about community safeguarding through
+              workshops and discussions, educating members on how to create a
+              safe and inclusive space for all.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Information Cards -->
+      <div class="card-deck">
+        <div class="card safeguarding-info" style="width: 18rem">
+          <img
+            src="assets/images/padlock.webp"
+            class="card-img-top"
+            alt="A padlock over a game board."
+          />
+          <div class="card-body">
+            <h5 class="card-title">What is safeguarding?</h5>
+            <p class="card-text">
+              Safeguarding is the act of protecting people's health, human
+              rights, and wellbeing, and ensuring they are free from abuse,
+              neglect, and harm. It's a collective responsibility to safeguard
+              children, young people, and adults.
+            </p>
+            <a class="btn btn-green" href="safeguarding.html" role="button"
+              >Learn More</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="assets/images/guidelines.webp"
+            class="card-img-top"
+            alt="A book of guidelines on top of a game board."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Guidelines</h5>
+            <p class="card-text">
+              Our guidelines include instructions on how to report a
+              safeguarding concern outside of the club and our club rules,
+              including our own reporting procedures.
+            </p>
+            <a class="btn btn-green" href="guidelines.html" role="button"
+              >Learn More</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="assets/images/outreach.webp"
+            class="card-img-top"
+            alt="A handshake above a game board."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Outreach</h5>
+            <p class="card-text">
+              We are collaborating with charities, school and other
+              organisations to host events and clubs using board games to
+              promote safeguarding.
+            </p>
+            <a class="btn btn-green" href="outreach.html" role="button"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Events -->
+
+    <section>
+      <div class="container-fluid">
+        <h2 class="hidden-heading">Event Times and Locations</h2>
+        <div id="events">
+          <div>
+            <h3>Club Meeting</h3>
+            <p>Mondays</p>
+            <p>Winckley Street Ale House, Preston</p>
+            <p>18:00</p>
+          </div>
+          <div>
+            <h3>Club Meeting</h3>
+            <p>Wednesdays</p>
+            <p>Ye Old Hobb Inn, Bamber Bridge</p>
+            <p>18:30</p>
+          </div>
+          <div>
+            <h3>Fundraiser</h3>
+            <p>Sunday Oct 31st</p>
+            <p>The Mill Cafe, St Catherine's Hospice</p>
+            <p>13:00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </footer>
 
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div id="footer-details" class="row">
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Contact Us</h5>
+          <div>
+            <span class="bold">Phone: </span>
+            <span> 555 555 555</span>
+          </div>
+          <div>
+            <a class="btn btn-green" href="contact.html" role="button"
+              >Contact Form</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub report">Report</h5>
+          <table class="text-left">
+            <tr>
+              <th>Children:</th>
+              <th>Adults:</th>
+            </tr>
 
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-
+            <tr>
+              <td><strong>Tel:</strong> 0300 123 6720</td>
+              <td><strong>Tel:</strong> 0300 123 6720</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Out of Hours:</strong><br />
+                0300 123 6722
+              </td>
+              <td>
+                <a
+                  class="btn btn-orange"
+                  href="https://www.lancashire.gov.uk/health-and-social-care/adult-social-care/report-a-concern-about-an-adult/l"
+                  role="button"
+                  >Report Concern</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="btn btn-orange"
+                  href="https://www.lancashire.gov.uk/children-education-families/keeping-children-safe/tell-us-if-you-are-worried-about-a-child/"
+                  role="button"
+                  >Report Concern</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-sm-4 social-border">
+          <h5 class="uppercase general-sub">Social</h5>
+          <ul class="social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="www.facebook.com">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="3em"
+                  height="3em"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="#22130c"
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131c.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                  />
+                </svg>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.meetup.com/">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="3em"
+                  height="3em"
+                  viewBox="0 0 14 14"
+                >
+                  <path
+                    fill="#22130c"
+                    d="M7 0c3.87 0 7 3.13 7 7s-3.13 7-7 7s-7-3.13-7-7s3.13-7 7-7M5.72 10.69c3.1 0 4.8-2.57 4.8-4.8v-.22c.33-.24.62-.54.84-.88c-.3.13-.63.22-.97.27c.35-.21.62-.54.74-.93c-.33.19-.69.33-1.07.41c-.31-.33-.75-.53-1.23-.53c-.93 0-1.69.76-1.69 1.69c0 .13.01.26.05.38c-1.4-.07-2.65-.74-3.48-1.76c-.14.25-.23.54-.23.85c0 .58.3 1.1.75 1.4c-.28 0-.54-.08-.76-.21v.02c0 .82.58 1.5 1.35 1.66c-.14.04-.29.06-.44.06c-.11 0-.21-.01-.32-.03c.21.67.84 1.16 1.57 1.17c-.58.45-1.31.72-2.1.72c-.14 0-.27 0-.4-.02c.74.48 1.63.76 2.58.76"
+                    class="cls-1"
+                  />
+                </svg>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.meetup.com/">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="3.5em"
+                  height="3.5em"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="#22130c"
+                    d="M99 414.3c1.1 5.7-2.3 11.1-8 12.3c-5.4 1.1-10.9-2.3-12-8c-1.1-5.4 2.3-11.1 7.7-12.3s11.1 2.3 12.3 8m143.1 71.4c-6.3 4.6-8 13.4-3.7 20c4.6 6.6 13.4 8.3 20 3.7c6.3-4.6 8-13.4 3.4-20c-4.2-6.5-13.1-8.3-19.7-3.7m-86-462.3c6.3-1.4 10.3-7.7 8.9-14c-1.1-6.6-7.4-10.6-13.7-9.1c-6.3 1.4-10.3 7.7-9.1 14c1.4 6.6 7.6 10.6 13.9 9.1M34.4 226.3c-10-6.9-23.7-4.3-30.6 6c-6.9 10-4.3 24 5.7 30.9c10 7.1 23.7 4.6 30.6-5.7c6.9-10.4 4.3-24.1-5.7-31.2m272-170.9c10.6-6.3 13.7-20 7.7-30.3c-6.3-10.6-19.7-14-30-7.7s-13.7 20-7.4 30.6c6 10.3 19.4 13.7 29.7 7.4m-191.1 58c7.7-5.4 9.4-16 4.3-23.7s-15.7-9.4-23.1-4.3c-7.7 5.4-9.4 16-4.3 23.7c5.1 7.8 15.6 9.5 23.1 4.3m372.3 156c-7.4 1.7-12.3 9.1-10.6 16.9c1.4 7.4 8.9 12.3 16.3 10.6c7.4-1.4 12.3-8.9 10.6-16.6c-1.5-7.4-8.9-12.3-16.3-10.9m39.7-56.8c-1.1-5.7-6.6-9.1-12-8c-5.7 1.1-9.1 6.9-8 12.6c1.1 5.4 6.6 9.1 12.3 8c5.4-1.5 9.1-6.9 7.7-12.6M447 138.9c-8.6 6-10.6 17.7-4.9 26.3s17.4 10.6 26 4.9c8.3-6 10.3-17.7 4.6-26.3c-5.7-8.7-17.4-10.9-25.7-4.9m-6.3 139.4c26.3 43.1 15.1 100-26.3 129.1c-17.4 12.3-37.1 17.7-56.9 17.1c-12 47.1-69.4 64.6-105.1 32.6c-1.1.9-2.6 1.7-3.7 2.9c-39.1 27.1-92.3 17.4-119.4-22.3c-9.7-14.3-14.6-30.6-15.1-46.9c-65.4-10.9-90-94-41.1-139.7c-28.3-46.9.6-107.4 53.4-114.9C151.6 70 234.1 38.6 290.1 82c67.4-22.3 136.3 29.4 130.9 101.1c41.1 12.6 52.8 66.9 19.7 95.2m-70 74.3c-3.1-20.6-40.9-4.6-43.1-27.1c-3.1-32 43.7-101.1 40-128c-3.4-24-19.4-29.1-33.4-29.4c-13.4-.3-16.9 2-21.4 4.6c-2.9 1.7-6.6 4.9-11.7-.3c-6.3-6-11.1-11.7-19.4-12.9c-12.3-2-17.7 2-26.6 9.7c-3.4 2.9-12 12.9-20 9.1c-3.4-1.7-15.4-7.7-24-11.4c-16.3-7.1-40 4.6-48.6 20c-12.9 22.9-38 113.1-41.7 125.1c-8.6 26.6 10.9 48.6 36.9 47.1c11.1-.6 18.3-4.6 25.4-17.4c4-7.4 41.7-107.7 44.6-112.6c2-3.4 8.9-8 14.6-5.1c5.7 3.1 6.9 9.4 6 15.1c-1.1 9.7-28 70.9-28.9 77.7c-3.4 22.9 26.9 26.6 38.6 4c3.7-7.1 45.7-92.6 49.4-98.3c4.3-6.3 7.4-8.3 11.7-8c3.1 0 8.3.9 7.1 10.9c-1.4 9.4-35.1 72.3-38.9 87.7c-4.6 20.6 6.6 41.4 24.9 50.6c11.4 5.7 62.5 15.7 58.5-11.1m5.7 92.3c-10.3 7.4-12.9 22-5.7 32.6c7.1 10.6 21.4 13.1 32 6c10.6-7.4 13.1-22 6-32.6c-7.4-10.6-21.7-13.5-32.3-6"
+                  />
+                </svg>
+                <span class="sr-only">Meet Up</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </html>
