@@ -320,3 +320,5 @@ OTHER TESTING STUFF?!?!
 ### **Acknowledgements** 
 - I would like to acknowledge my Code Institute facilitator, Amy Richardson, for her calming presence and advice.
 - My family and friends for testing my work and offering positive feedback and the invaluable OAP perspective. 
+-Shout out to Tayla Ball for keeping me sane and checking in with me.
+-Rowan, the dog, for being available for cuddles when needed.
