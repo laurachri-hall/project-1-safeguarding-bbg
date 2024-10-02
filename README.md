@@ -7,7 +7,7 @@ The **Board Game Guardians** is a board game club dedicated to fostering a fun a
 
 <br>  
   
-![screenshot of landing page](/assets/images/readme-images/landingpage.webp)
+![screenshot of landing page](/docs/landingpage.webp)
 
 ---
 
@@ -63,6 +63,7 @@ The Board Game Guardians primary goal is provide information about safeguarding 
 
 ### **First Time Visitor**
   - A user can access each page of the site with one click via the navigation bar.
+  - A user wanting information about safeguarding can find anything linked to safeguarding under the dropdown menu item labeled 'Safeguarding'.
   - A user can quickly be taken to guidelines on how to report a safeguarding issue from a dropdown in the navigation bar or cards in the main body.
   - A user can view contact information and reporting information in the footer.
 
@@ -105,7 +106,6 @@ It was requested that the design was straightforward, clear and easy to understa
  
 -A hero section that quicky and clearly describe the purpose of the website.
 - Key information sections were to be included with sections explaining safeguarding, signs to watch for and action steps. 
-- A bullet list of action steps to ensure clarity.
 - A form for contacting and reporting safeguarding concerns. 
 
   
@@ -119,8 +119,63 @@ The site was developed to be straightforward with details about safeguarding and
 - Centered in the image is a tagline and slogan of the club, clearly explain the club and its purpose.
 - Scrolling down the page introduces to slightly more indepth overview of what the club is and what they do. Underneath are information cards with images, a text description and buttons to lead to more information.
 - The page ends with the footer with contact details, reporting information and social media links.
+- For the contact page, the navigation bar and footer remain as before. Between these lies is a simple form with name, email and message fields with an attractive background. 
+- For the safeguarding page, the navigation and footer remain as before. Two sections are presented with explanatory headings. Underneath is a video about safeguarding and an accordian with information about types of abuse, a definition, signs to watch for and some resources for within and without Lancashire.
+-The outreach page has three cards to links to organisations the club has worked with or is working with. If these were real they would link to the organisations homepages.
 
-- For the contact page, the navigation bar and footer remain as before. Between these lies is a simple form with name, email and message fields with an attractive background.
+### Wireframes  
+<details open>
+<summary>Wireframe - Homepage Desktop & Mobile</summary>  
+
+![homepage wireframe-desktop](/docs/bgg-wireframe.webp)
+
+### **5. Surface**  
+
+ A design was created that allowed a consistent flow throughout the site.   
+- A palette of light greens, pinks and oranges was created, similar to evoke a calm but playful feeling. 
+- Two clean, sans-serif fonts, were used 'Montseratt' and 'Lexend'. Both of these are clear and nicely spaced making them readible for everyone.
+- 
+Overall, the design was intended and created to evoke a relaxing and safe environment.
+ 
+ ## Design  
+
+### **Color Scheme**  
+
+This website used a fresh palette of greens, pinks and oranges that were inspired by the hero image.  I combined these with a darker licorice colour for contrast and readabilty in the text.
   
-- For the safeguarding page, the navigation and footer remain as before. Two sections are presented with explanatory headings. An optional form for visitors who wish to connect with the business with an interactive Google Map with the business location pinned. There is an option to enlarge the map in a new window and find directions.  
-- Below the map again are the location details for the shop with a phone number to contact them. 
+![colour theme swatches](docs/color-p.png)  
+   
+  
+[Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) checked how accessible the colours are.  
+
+### **Typography**  
+  
+[Google Fonts](https://fonts.google.com/) was used to import the fonts 'Montseratt' and 'Lexend'. I used Montseratt for headings and Lexend for the main content.
+  
+### **Imagery**  
+ 
+ I specifically chose graphic vector images over photographs as I felt this was a bit safer with the safeguarding theme, where photographs of people can be problematic. The clear, bright hero image was a great foundation for building the theme of the website and all other images used this one as a reference point when generated in AI. Each information card in the main section of the site is topped by it's own themed image and other backgrounds are vector graphics of the Preston skyline and Miller Park (contact page background).
+
+The sites [Adobe Stock](https://stock.adobe.com/uk/) and Adobe Firefly provided the stock and AI images used throughout the website, with attributions to the designers placed in the [Credits](#credits) section of this README doc.
+
+---  
+
+### **Navbar and Hero Image**   
+<details open>
+<summary></summary>  
+
+![screenshot of navbar and hero](docs/landingpage.webp) 
+</details>
+This remains the same across all pages in tablet/desktop view, it changes to a hamburger icon in the center for mobile views. The logo text also resizes to smaller for mobile.
+
+![screenshot of navbar and hero on mobile](docs/mobile landing.webp) 
+<br>  
+
+### **Tagline **  
+<details open>
+<summary></summary> 
+ 
+</details>
+The tagline image has its opacity set to allow the hero image to still show through. 
+
+<br>
