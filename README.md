@@ -174,8 +174,149 @@ This remains the same across all pages in tablet/desktop view, it changes to a h
 ### **Tagline **  
 <details open>
 <summary></summary> 
- 
+
 </details>
 The tagline image has its opacity set to allow the hero image to still show through. 
 
 <br>
+
+### **Introduction and Information Cards **  
+<details open>
+<summary></summary> 
+ 
+</details>
+I made use of bootstrap cards to present introductory information about the club with 'Who are We?' and 'What do we do?'. Underneath these are the primary information cards with an image, title, and description followed by a 'learn more' button.
+
+![screenshot of Introducation and Information Cards](docs/infocards.webp) 
+<br>
+
+### **Introduction and Information Cards **  
+<details open>
+<summary></summary> 
+ 
+</details>
+Here any events can be added and will wrap as needed. The background is a gaphic image of the Preston skyline, with a dark overlay to make the event information more readable. Each event is seperated with a border. 
+
+![screenshot of Introducation and Information Cards](docs/events.webp) 
+<br>
+
+## Tablet & Mobile View  
+ 
+### **Desktop, Tablet & Mobile Differences**  
+
+To ensure responsivity I used Bootstrap 4.6. All elements resize and wrap as necessary, with everything appearing in a column for smaller screens. The header navbar and logo changed as detailed above.
+  
+
+---  
+
+## Future Features  
+
+- For future development, I would like to include a way for members to add what games they have so it is viewable to other members, who then have the option to request a game at a specific club meeting.
+
+## Technologies Used    
+
+### **Languages Used**   
+
+- HTML5
+- CSS3
+
+### **Frameworks, Libraries, Technologies & Programs Used**  
+
+- Balsamiq - used to create wireframes and edit images 
+- GitHub - used to save and store all files for this website  
+- Git - used for version control
+- Google Fonts - fonts were imported from here 
+- Iconify Design - icons and their associated kit were downloaded from here when Font Awesome enraged me 
+- Adobe Color - for all color palettes and accessibility contrast ratios  
+- logo.com - for shield favicon  
+- Photoshop - to resize and edit images
+- Adobe Stock - for main hero image
+- Adobe Firefly - for additional AI generated images
+- ChatGBT - for club name and all text
+- Google Dev Tools - to debug and for testing responsiveness 
+- Google Lighthouse - for auditing the website
+- W3C Validator - for validating the HTML and CSS code 
+
+---   
+
+## Deployment
+
+### **How to deploy**  
+
+GitHub was used to deploy the website. These were the steps taken to acheive this:  
+
+1. Login to GitHub account
+2. Navigate to the project repository, project-1-safeguarding-bgg
+3. Click the Settings button near the top of the page
+4. In the left-hand menu, find and click on the Pages button
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
+
+
+### **Initial testing plan**
+
+I had planned for this site to be accessible and legible on all screen sizes. I used Chrome Dev Tools to test, tweak and debug in the early stages. I deployed my site halfway through to test on real-world devices. These devices included:  
+- MacBook Air (1920 X 1080)  
+- KOORUI 24 Inch FHD Monitor
+- iPad Air 2023
+- iPhone 14 Plus
+- iPhone 15
+
+### **Testing**    
+
+Testing took place throughout the entire build using Dev Tools on Chrome and on the above real-world devices. The browsers used were:  
+- Chrome   
+- Safari  
+
+OTHER TESTING STUFF?!?!
+
+### **HTML Validation using W3C Validation**  
+<details open>
+<summary>Index/landing page HTML validation</summary>  
+
+![screenshot of index page w3c html validation for SCOOPS](docs/documentation/w3c_index.png)
+</details>   
+<details>
+<summary>Menu page HTML validation</summary>  
+
+![screenshot of menu page w3c html validation for SCOOPS](docs/documentation/w3c_menu.png)
+</details>  
+<details>
+<summary>Contact page HTML validation</summary>  
+
+![screenshot of contact page w3c html validation for SCOOPS](docs/documentation/w3c_contact.png)
+</details>  
+  
+<br>  
+
+### **CSS Validation using W3C Validation** 
+
+<details open>
+<summary>SCOOPS CSS validation</summary>  
+
+![screenshot of CSS validation for SCOOPS](docs/documentation/w3c_css.png)
+</details>   
+
+<br>  
+
+
+
+
+
+
+
+
+
+### **Media References**  
+  
+- [Adobe Stock](https://stock.adobe.com/) for the hero image. Credit to graphic designer: Macrovector.
+- Adobe Firefly for generating all other images with AI.
+- [Iconify Design](https://iconify.design/) for all the icons used in this site.
+- [logo.com](https://logo.com/dashboard/your-logo-files) for the favicon used for this site.
+- [Hotpot.ai](https://hotpot.ai/icon-resizer) for resizing the favicons used for this site.
+
+
+### **Acknowledgements** 
+- I would like to acknowledge my Code Institute facilitator, Amy Richardson, for her calming presence and advice.
+- My family and friends for testing my work and offering positive feedback and the invaluable OAP perspective. 
